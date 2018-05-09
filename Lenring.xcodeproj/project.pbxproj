@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E517814220A3BB8300ED9CE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517814120A3BB8300ED9CE8 /* AppDelegate.swift */; };
+		E517814420A3BB8300ED9CE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517814320A3BB8300ED9CE8 /* ViewController.swift */; };
+		E517814720A3BB8300ED9CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E517814520A3BB8300ED9CE8 /* Main.storyboard */; };
+		E517814A20A3BB8300ED9CE8 /* Lenring.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E517814820A3BB8300ED9CE8 /* Lenring.xcdatamodeld */; };
+		E517814C20A3BB8300ED9CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E517814B20A3BB8300ED9CE8 /* Assets.xcassets */; };
+		E517814F20A3BB8300ED9CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E517814D20A3BB8300ED9CE8 /* LaunchScreen.storyboard */; };
+		E517815A20A3BB8300ED9CE8 /* LenringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517815920A3BB8300ED9CE8 /* LenringTests.swift */; };
+		E517816520A3BB8300ED9CE8 /* LenringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517816420A3BB8300ED9CE8 /* LenringUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E517815620A3BB8300ED9CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E517813620A3BB8300ED9CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E517813D20A3BB8300ED9CE8;
+			remoteInfo = Lenring;
+		};
+		E517816120A3BB8300ED9CE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E517813620A3BB8300ED9CE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E517813D20A3BB8300ED9CE8;
+			remoteInfo = Lenring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E517813E20A3BB8300ED9CE8 /* Lenring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lenring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E517814120A3BB8300ED9CE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E517814320A3BB8300ED9CE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E517814620A3BB8300ED9CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E517814920A3BB8300ED9CE8 /* Lenring.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lenring.xcdatamodel; sourceTree = "<group>"; };
+		E517814B20A3BB8300ED9CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E517814E20A3BB8300ED9CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E517815020A3BB8300ED9CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E517815520A3BB8300ED9CE8 /* LenringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E517815920A3BB8300ED9CE8 /* LenringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenringTests.swift; sourceTree = "<group>"; };
+		E517815B20A3BB8300ED9CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E517816020A3BB8300ED9CE8 /* LenringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E517816420A3BB8300ED9CE8 /* LenringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenringUITests.swift; sourceTree = "<group>"; };
+		E517816620A3BB8300ED9CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E517813B20A3BB8300ED9CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E517815220A3BB8300ED9CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E517815D20A3BB8300ED9CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E517813520A3BB8300ED9CE8 = {
+			isa = PBXGroup;
+			children = (
+				E517814020A3BB8300ED9CE8 /* Lenring */,
+				E517815820A3BB8300ED9CE8 /* LenringTests */,
+				E517816320A3BB8300ED9CE8 /* LenringUITests */,
+				E517813F20A3BB8300ED9CE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E517813F20A3BB8300ED9CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E517813E20A3BB8300ED9CE8 /* Lenring.app */,
+				E517815520A3BB8300ED9CE8 /* LenringTests.xctest */,
+				E517816020A3BB8300ED9CE8 /* LenringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E517814020A3BB8300ED9CE8 /* Lenring */ = {
+			isa = PBXGroup;
+			children = (
+				E517814120A3BB8300ED9CE8 /* AppDelegate.swift */,
+				E517814320A3BB8300ED9CE8 /* ViewController.swift */,
+				E517814520A3BB8300ED9CE8 /* Main.storyboard */,
+				E517814B20A3BB8300ED9CE8 /* Assets.xcassets */,
+				E517814D20A3BB8300ED9CE8 /* LaunchScreen.storyboard */,
+				E517815020A3BB8300ED9CE8 /* Info.plist */,
+				E517814820A3BB8300ED9CE8 /* Lenring.xcdatamodeld */,
+			);
+			path = Lenring;
+			sourceTree = "<group>";
+		};
+		E517815820A3BB8300ED9CE8 /* LenringTests */ = {
+			isa = PBXGroup;
+			children = (
+				E517815920A3BB8300ED9CE8 /* LenringTests.swift */,
+				E517815B20A3BB8300ED9CE8 /* Info.plist */,
+			);
+			path = LenringTests;
+			sourceTree = "<group>";
+		};
+		E517816320A3BB8300ED9CE8 /* LenringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E517816420A3BB8300ED9CE8 /* LenringUITests.swift */,
+				E517816620A3BB8300ED9CE8 /* Info.plist */,
+			);
+			path = LenringUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E517813D20A3BB8300ED9CE8 /* Lenring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E517816920A3BB8300ED9CE8 /* Build configuration list for PBXNativeTarget "Lenring" */;
+			buildPhases = (
+				E517813A20A3BB8300ED9CE8 /* Sources */,
+				E517813B20A3BB8300ED9CE8 /* Frameworks */,
+				E517813C20A3BB8300ED9CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lenring;
+			productName = Lenring;
+			productReference = E517813E20A3BB8300ED9CE8 /* Lenring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E517815420A3BB8300ED9CE8 /* LenringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E517816C20A3BB8300ED9CE8 /* Build configuration list for PBXNativeTarget "LenringTests" */;
+			buildPhases = (
+				E517815120A3BB8300ED9CE8 /* Sources */,
+				E517815220A3BB8300ED9CE8 /* Frameworks */,
+				E517815320A3BB8300ED9CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E517815720A3BB8300ED9CE8 /* PBXTargetDependency */,
+			);
+			name = LenringTests;
+			productName = LenringTests;
+			productReference = E517815520A3BB8300ED9CE8 /* LenringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E517815F20A3BB8300ED9CE8 /* LenringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E517816F20A3BB8300ED9CE8 /* Build configuration list for PBXNativeTarget "LenringUITests" */;
+			buildPhases = (
+				E517815C20A3BB8300ED9CE8 /* Sources */,
+				E517815D20A3BB8300ED9CE8 /* Frameworks */,
+				E517815E20A3BB8300ED9CE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E517816220A3BB8300ED9CE8 /* PBXTargetDependency */,
+			);
+			name = LenringUITests;
+			productName = LenringUITests;
+			productReference = E517816020A3BB8300ED9CE8 /* LenringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E517813620A3BB8300ED9CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Huy;
+				TargetAttributes = {
+					E517813D20A3BB8300ED9CE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E517815420A3BB8300ED9CE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E517813D20A3BB8300ED9CE8;
+					};
+					E517815F20A3BB8300ED9CE8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E517813D20A3BB8300ED9CE8;
+					};
+				};
+			};
+			buildConfigurationList = E517813920A3BB8300ED9CE8 /* Build configuration list for PBXProject "Lenring" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E517813520A3BB8300ED9CE8;
+			productRefGroup = E517813F20A3BB8300ED9CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E517813D20A3BB8300ED9CE8 /* Lenring */,
+				E517815420A3BB8300ED9CE8 /* LenringTests */,
+				E517815F20A3BB8300ED9CE8 /* LenringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E517813C20A3BB8300ED9CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E517814F20A3BB8300ED9CE8 /* LaunchScreen.storyboard in Resources */,
+				E517814C20A3BB8300ED9CE8 /* Assets.xcassets in Resources */,
+				E517814720A3BB8300ED9CE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E517815320A3BB8300ED9CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E517815E20A3BB8300ED9CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E517813A20A3BB8300ED9CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E517814420A3BB8300ED9CE8 /* ViewController.swift in Sources */,
+				E517814220A3BB8300ED9CE8 /* AppDelegate.swift in Sources */,
+				E517814A20A3BB8300ED9CE8 /* Lenring.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E517815120A3BB8300ED9CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E517815A20A3BB8300ED9CE8 /* LenringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E517815C20A3BB8300ED9CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E517816520A3BB8300ED9CE8 /* LenringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E517815720A3BB8300ED9CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E517813D20A3BB8300ED9CE8 /* Lenring */;
+			targetProxy = E517815620A3BB8300ED9CE8 /* PBXContainerItemProxy */;
+		};
+		E517816220A3BB8300ED9CE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E517813D20A3BB8300ED9CE8 /* Lenring */;
+			targetProxy = E517816120A3BB8300ED9CE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E517814520A3BB8300ED9CE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E517814620A3BB8300ED9CE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E517814D20A3BB8300ED9CE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E517814E20A3BB8300ED9CE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E517816720A3BB8300ED9CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E517816820A3BB8300ED9CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E517816A20A3BB8300ED9CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lenring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huy.Lenring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E517816B20A3BB8300ED9CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Lenring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huy.Lenring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E517816D20A3BB8300ED9CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LenringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huy.LenringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lenring.app/Lenring";
+			};
+			name = Debug;
+		};
+		E517816E20A3BB8300ED9CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LenringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huy.LenringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lenring.app/Lenring";
+			};
+			name = Release;
+		};
+		E517817020A3BB8300ED9CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LenringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huy.LenringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lenring;
+			};
+			name = Debug;
+		};
+		E517817120A3BB8300ED9CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LenringUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = huy.LenringUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lenring;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E517813920A3BB8300ED9CE8 /* Build configuration list for PBXProject "Lenring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E517816720A3BB8300ED9CE8 /* Debug */,
+				E517816820A3BB8300ED9CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E517816920A3BB8300ED9CE8 /* Build configuration list for PBXNativeTarget "Lenring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E517816A20A3BB8300ED9CE8 /* Debug */,
+				E517816B20A3BB8300ED9CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E517816C20A3BB8300ED9CE8 /* Build configuration list for PBXNativeTarget "LenringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E517816D20A3BB8300ED9CE8 /* Debug */,
+				E517816E20A3BB8300ED9CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E517816F20A3BB8300ED9CE8 /* Build configuration list for PBXNativeTarget "LenringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E517817020A3BB8300ED9CE8 /* Debug */,
+				E517817120A3BB8300ED9CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E517814820A3BB8300ED9CE8 /* Lenring.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E517814920A3BB8300ED9CE8 /* Lenring.xcdatamodel */,
+			);
+			currentVersion = E517814920A3BB8300ED9CE8 /* Lenring.xcdatamodel */;
+			path = Lenring.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E517813620A3BB8300ED9CE8 /* Project object */;
+}
