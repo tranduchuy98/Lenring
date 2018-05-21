@@ -15,6 +15,9 @@
 		E517814F20A3BB8300ED9CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E517814D20A3BB8300ED9CE8 /* LaunchScreen.storyboard */; };
 		E517815A20A3BB8300ED9CE8 /* LenringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517815920A3BB8300ED9CE8 /* LenringTests.swift */; };
 		E517816520A3BB8300ED9CE8 /* LenringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517816420A3BB8300ED9CE8 /* LenringUITests.swift */; };
+		E517817320A3BD6400ED9CE8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517817220A3BD6400ED9CE8 /* DetailViewController.swift */; };
+		E5C18B1A20AD20E5001D7574 /* Dataservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C18B1920AD20E5001D7574 /* Dataservice.swift */; };
+		E5C18B1C20AD2207001D7574 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C18B1B20AD2207001D7574 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E517816020A3BB8300ED9CE8 /* LenringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LenringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E517816420A3BB8300ED9CE8 /* LenringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LenringUITests.swift; sourceTree = "<group>"; };
 		E517816620A3BB8300ED9CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E517817220A3BD6400ED9CE8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E5C18B1920AD20E5001D7574 /* Dataservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dataservice.swift; sourceTree = "<group>"; };
+		E5C18B1B20AD2207001D7574 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				E517814120A3BB8300ED9CE8 /* AppDelegate.swift */,
-				E517814320A3BB8300ED9CE8 /* ViewController.swift */,
-				E517814520A3BB8300ED9CE8 /* Main.storyboard */,
-				E517814B20A3BB8300ED9CE8 /* Assets.xcassets */,
-				E517814D20A3BB8300ED9CE8 /* LaunchScreen.storyboard */,
+				E5821FA120AD2A26002B37A5 /* Dataservice */,
+				E5821FA020AD2A11002B37A5 /* ViewController */,
+				E5821FA220AD2A45002B37A5 /* View */,
 				E517815020A3BB8300ED9CE8 /* Info.plist */,
 				E517814820A3BB8300ED9CE8 /* Lenring.xcdatamodeld */,
+				E517814B20A3BB8300ED9CE8 /* Assets.xcassets */,
 			);
 			path = Lenring;
 			sourceTree = "<group>";
@@ -126,6 +132,33 @@
 				E517816620A3BB8300ED9CE8 /* Info.plist */,
 			);
 			path = LenringUITests;
+			sourceTree = "<group>";
+		};
+		E5821FA020AD2A11002B37A5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E517814320A3BB8300ED9CE8 /* ViewController.swift */,
+				E5C18B1B20AD2207001D7574 /* TableViewController.swift */,
+				E517817220A3BD6400ED9CE8 /* DetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E5821FA120AD2A26002B37A5 /* Dataservice */ = {
+			isa = PBXGroup;
+			children = (
+				E5C18B1920AD20E5001D7574 /* Dataservice.swift */,
+			);
+			path = Dataservice;
+			sourceTree = "<group>";
+		};
+		E5821FA220AD2A45002B37A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E517814520A3BB8300ED9CE8 /* Main.storyboard */,
+				E517814D20A3BB8300ED9CE8 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +296,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E517814420A3BB8300ED9CE8 /* ViewController.swift in Sources */,
+				E5C18B1C20AD2207001D7574 /* TableViewController.swift in Sources */,
 				E517814220A3BB8300ED9CE8 /* AppDelegate.swift in Sources */,
 				E517814A20A3BB8300ED9CE8 /* Lenring.xcdatamodeld in Sources */,
+				E5C18B1A20AD20E5001D7574 /* Dataservice.swift in Sources */,
+				E517817320A3BD6400ED9CE8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
